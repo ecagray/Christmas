@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>🎄 圣诞快乐</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎄 圣诞快乐</h1>
+    <p>To：罗雪茹Merry Christmas</p>
+    <button onclick="showBless()">点我收祝福 🎁</button>
+    <p id="bless"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- 背景音乐 -->
+<audio id="bgm" loop preload="auto">
+  <source src="bgm.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 右上角音乐按钮 -->
+<div class="music-btn" onclick="toggleMusic()">
+  <img src="music.png" id="musicIcon">
+</div>
+
+<div class="ps-tip">
+  ps: 点击右上角有惊喜 🎁
+</div>
+
+
+</body>
+</html>
